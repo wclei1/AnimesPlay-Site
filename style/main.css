@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ /* elementos básicos*/
+
+body{
+    background: black;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    color: white;
+}
+
+header .container{
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: rgb(255, 68, 0);
+    font-size: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 68, 0);
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+header nav a:hover{
+    color: rgb(139, 41, 5);
+}
+
+/*anime principal*/
+
+.anime_principal{
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0.30)), url(/img/Asta.png);
+
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin-bottom: 40px;
+    margin-top:20px;
+}
+
+.titulo{
+    margin-top: 20%;
+    font-size: 50px;
+}
+
+.botao{
+    background-color: rgb(0,0,0,.50);
+    border: none;
+    color: white;
+    border-radius: 15px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .6s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 45px;
+}
+
+.anime_principal .container{
+    width: 50%;
+}
+
+.box-filme{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+.titulo-filmes{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carrosel-animes{
+    margin-top: 15px;
+}
